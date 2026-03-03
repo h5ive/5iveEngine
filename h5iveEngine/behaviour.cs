@@ -47,7 +47,7 @@ namespace h5iveEngine
             var updateMethod = type.GetMethod("Update");
             if (updateMethod != null)
             {
-                cahcedUpdate = (Action)Delegate.CreateDelgate(
+                cachedUpdate = (Action)Delegate.CreateDelgate(
                     typeof(Action), this, updateMethod);
                 BehaviourControlModule.SubscribeUpdate(cachedUpdate);
             }
