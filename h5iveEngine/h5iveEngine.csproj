@@ -43,10 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="behaviour.cs" />
+    <Compile Include="BehaviourControlModule.cs" />
+    <Compile Include="ConsoleRenderModule.cs" />
+    <Compile Include="h5iveBehaviour.cs" />
     <Compile Include="EngineCore.cs" />
     <Compile Include="EngineCycle.cs" />
     <Compile Include="FrameStateModule.cs" />
+    <Compile Include="InputModule.cs" />
+    <Compile Include="Object.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
